@@ -1,0 +1,12 @@
+create table customers(
+  id int not null primary key,
+  name varchar(150) not null, 
+  city varchar(150) 
+);
+
+truncate customers;
+
+insert into customers values (null, 'J', 'Bogota');
+insert into customers values (null, 'A', 'Medellin');
+insert into customers values (null, 'C', 'Cali');
+insert into customers values (null, 'D', 'Barranquilla');
